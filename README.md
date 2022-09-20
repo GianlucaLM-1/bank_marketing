@@ -34,7 +34,7 @@ Of course, with the reduction of the number of features we will have a decrease 
 
 ### Resampling
 Resampling is a very important preprocessing technique which consists of work- ing on the training set in order to reach a more balanced working space than the inital one. Resampling can be done in different ways.
-- Undersampling: This technique consists of removing records from the majority class in order to balance. The simplest undersampling technique involves randomly selecting examples from the majority class and deleting them from the training dataset. Altough simple, it is not very effective, so the idea is to use heuristics based algorithm to remove useless records
+- Undersampling: This technique consists of removing records from the majority class in order to balance. The simplest undersampling technique involves randomly selecting examples from the majority class and deleting them from the training dataset. Altough simple, it is not very effective, so the idea is to use heuristics based algorithm to remove useless records. In our study case we used Near-miss.
 - Oversampling:It consists of adding synthetic samples of the minority. The goal can be achieved by simply duplicating examples from the minority class in the train- ing dataset prior to fitting a model.The most effective algorithm in this scenario is SMOTE (Synthetic Minority Oversampling Technique) which works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line.
 ![resampling](https://user-images.githubusercontent.com/66356627/191218272-0bf13780-b134-4792-848e-17df1512e6f4.png)
 
