@@ -49,7 +49,7 @@ An evaluation metric quantifies the performance of a predictive model. This typi
 
 
 # Model selection and testing
-The algortihm we tested are:
+The algortihms we tested are:
 - Decision trees and Random Forest
 - Logistic Regression
 - SVM
