@@ -51,5 +51,6 @@ The algortihm we tested are:
 - Logistic Regression
 - SVM
 - KNN
+
 ![results](https://user-images.githubusercontent.com/66356627/191218649-f4d112e9-ebb2-4a6c-9c88-4b90758279c9.png)
 
