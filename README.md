@@ -40,10 +40,13 @@ Resampling is a very important preprocessing technique which consists of work- i
 
 ## Model evaluation
 An evaluation metric quantifies the performance of a predictive model. This typically involves training a model on a dataset, using the model to make predictions on a holdout dataset not used during training, then comparing the predictions to the expected values in the holdout dataset. The most used metrics to evaluate a classification model are:
-- Accuracy = TP+TN TP+TN+FP+FN
-- Precision= TP TP+FP
-- Recall= TP TP+FN
-- F1 = 2×Precision×Recall 
+\begin{itemize}
+    \item $Accuracy = \frac{TP+TN}{TP+TN+FP+FN}$
+    \item $Precision = \frac{TP}{TP+FP}$
+    \item $Recall = \frac{TP}{TP+FN}$
+    \item $F1 = \frac{2 \times Precision \times Recall}{Precision+Recall} = \frac{2 \times TP}{2 \times TP+FP+FN}$
+\end{itemize}
+
 
 # Model selection and testing
 The algortihm we tested are:
