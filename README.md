@@ -12,6 +12,7 @@ Final project for the Mathematics in Machine Learning course @ PoliTo
 
 ## EDA
 The Bank Marketing Data Set is composed by 768587 records. For each record we have information about the personal data about the potential clients. Infor- mation about the previous investment can be also found. The target variable indicates whether a term deposit will be subscribed or not. We can distinguish both numerical and categorical features.
+![target_distribution](https://user-images.githubusercontent.com/66356627/191217985-70b9fa69-0f70-4230-921c-8f513363343f.png)
 
 ---
 
@@ -37,11 +38,13 @@ Resampling is a very important preprocessing technique which consists of work- i
 
 ## Model evaluation
 An evaluation metric quantifies the performance of a predictive model. This typically involves training a model on a dataset, using the model to make predictions on a holdout dataset not used during training, then comparing the predictions to the expected values in the holdout dataset. The most used metrics to evaluate a classification model are:
-• Accuracy = TP+TN TP+TN+FP+FN
- •Precision= TP TP+FP
-•Recall= TP TP+FN
-• F 1 = 2×P recision×Recall = P recision+Recall
-2×T P
-2×T P +F P +F N
+- Accuracy = TP+TN TP+TN+FP+FN
+- Precision= TP TP+FP
+- Recall= TP TP+FN
+- F1 = 2×Precision×Recall 
 
-
+# Model selection and testing
+- Decision trees and Random Forest
+- Logistic Regression
+- SVM
+- KNN
